@@ -1,0 +1,31 @@
+# robots.txt for Free Voice Labs
+# www.freevoicelabs.com
+
+User-agent: *
+Allow: /
+Allow: /premium-voices
+Allow: /realistic-voices
+Allow: /ai-voices
+Allow: /about
+Allow: /faqs
+Allow: /contact
+Allow: /feature-requests
+Allow: /privacy
+Allow: /terms
+Allow: /disclaimers
+Allow: /sitemap
+Allow: /style.css
+Allow: /shared.css
+
+# Disallow admin panel from search engines
+Disallow: /admin
+Disallow: /admin.html
+
+# Sitemap location
+Sitemap: https://freevoicelabs.com/sitemap.xml
+
+# Crawl delay to be respectful
+Crawl-delay: 1
+
+# Specify your host
+Host: freevoicelabs.com

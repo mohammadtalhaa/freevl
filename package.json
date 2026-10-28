@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "next": "15.5.28",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "name": "freevoicelabs-nextjs",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "extract": "python3 scripts/extract-legacy.py",
+    "start": "next start"
+  },
+  "version": "1.0.0"
+}
